@@ -6,7 +6,7 @@
 * @copyright Wout Fierens <wout@mick-wout.com>
 * @license MIT
 *
-* BUILT: Fri Jun 30 2017 23:15:13 GMT+0200 (Mitteleuropäische Sommerzeit)
+* BUILT: Sat Jul 08 2017 22:23:59 GMT-0400 (EDT)
 */;
 (function(root, factory) {
   /* istanbul ignore next */
@@ -4013,7 +4013,7 @@ SVG.Doc = SVG.invent({
     }
     // Fix for possible sub-pixel offset. See:
     // https://bugzilla.mozilla.org/show_bug.cgi?id=608812
-  , spof: function(spof) {
+  , spof: function() {
       var pos = this.node.getScreenCTM()
 
       if (pos)
@@ -5548,4 +5548,4 @@ if (typeof window.CustomEvent !== 'function') {
 
 return SVG
 
-}));
+}));
