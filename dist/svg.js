@@ -4128,7 +4128,7 @@ SVG.Use = SVG.invent({
     // Use element as a reference
     element: function(element, file) {
       // Set lined element
-      return this.attr('href', (file || '') + '#' + element, SVG.xlink)
+      return this.attr('xlink:href', (file || '') + '#' + element, SVG.xlink)
     }
   }
 
